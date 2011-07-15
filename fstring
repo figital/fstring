@@ -13,6 +13,8 @@
 #    dumb and will actually run # that code EVERY time the loop runs
 # ./public_html/widgets/twitter/cache.php:  $tweets = array_slice($tweets, 0, 5);
 
-# installation: sudo cp fstring /usr/local/bin
+# installation: 
+#    wget https://raw.github.com/figital/fstring/master/fstring
+#    sudo cp fstring /usr/local/bin
 
 find $1 -type f -exec grep $2 \{\} /dev/null \;
