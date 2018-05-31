@@ -1,4 +1,4 @@
-*fstring*
+# fstring
 
 "find string" 
 
@@ -12,13 +12,13 @@ The following example will search the current directory (and below) for the stri
 
 (thanks to @rwaldron for the pick)
 
-*Installation*
+**Installation**
 
 ```
 wget https://raw.github.com/figital/fstring/master/fstring
 sudo cp fstring /usr/local/bin
 ```
- *Example*
+ **Example**
  
  The following command will find all instances of the phrase "python3" in the current directory (recursively):
  
